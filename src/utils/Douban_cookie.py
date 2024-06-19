@@ -52,8 +52,8 @@ def login(username, password):
 brower = webdriver.Chrome()     # 此文件已配置完毕，本行请勿动！
 
 # 可修改参数部分：
-url = "https://www.douban.com"  # 需要登陆的网页界面，理论上可以修改，但不同网页源代码不同，需要定制cookie获取方式
-username = '13885660057'        # 自定义填写用户名与密码。默认勿动。如果账户被完全封锁，需要重新设置。
-password = 'yyyz05090827'
+url = ""  # 需要登陆的网页界面，理论上可以修改，但不同网页源代码不同，需要定制cookie获取方式
+username = ''        # 自定义填写用户名与密码。默认勿动。如果账户被完全封锁，需要重新设置。
+password = ''
 
 login(username, password)
